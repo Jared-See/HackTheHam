@@ -193,6 +193,10 @@ a.pure-button-primary {
     padding: 1em 1em 3em;
 }
 
+.second-block{
+    position: center-horizontal;
+}
+
 /* This is the class used for the main content headers (<h2>) */
 .content-head {
     font-weight: 400;
