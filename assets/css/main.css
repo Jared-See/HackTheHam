@@ -45,6 +45,8 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2933,7 +2935,10 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
+		background: #396afc;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
