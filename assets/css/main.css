@@ -1900,7 +1900,7 @@
 		.flex.flex-2 article {
 			width: 47%;
 			*color: white;
-			*background-color: #5385c1;
+			*background: #5385c1;
 		}
 
 		.flex.flex-3 article {
