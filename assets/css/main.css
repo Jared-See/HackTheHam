@@ -2,11 +2,7 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
 
-/*
-	Theory by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
+
 
 /* Reset */
 
@@ -1903,6 +1899,8 @@
 
 		.flex.flex-2 article {
 			width: 47%;
+			*color: white;
+			*background-color: #5385c1;
 		}
 
 		.flex.flex-3 article {
