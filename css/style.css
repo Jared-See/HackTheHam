@@ -253,7 +253,6 @@ div.gallery:hover {
 div.gallery img {
   width: 100%!absolute;
   height: auto!absolute;
-  border-radius: 75%!absolute;
 }
 
 div.desc {
