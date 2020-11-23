@@ -251,7 +251,7 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%!absolute;
+  width: 75%!absolute;
   height: auto!absolute;
 }
 
