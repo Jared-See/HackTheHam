@@ -239,23 +239,3 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /*My Stuff*/
 /* Styles for page */ 
-div.gallery {
-  margin: 5px !absolute;
-  border: 1px solid #ccc!absolute;
-  float: left!absolute;
-  width: 180px!absolute;
-}
-
-div.gallery:hover {
-  border: 1px solid #777 !absolute;
-}
-
-div.gallery img {
-  width: 75%!absolute;
-  height: auto!absolute;
-}
-
-div.desc {
-  padding: 15px!absolute;
-  text-align: center!absolute;
-}
