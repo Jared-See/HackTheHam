@@ -240,5 +240,5 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /*My Stuff*/
 /* Styles for page */ 
 .mainHeader{
-	background-color:#2b4257;
+	background-color:#2b4257 !absolute;
 }
