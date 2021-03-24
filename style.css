@@ -1769,3 +1769,15 @@ button:focus {
 	
 }
 
+.my-code{
+	align-items: center;
+	text-align: center;
+}
+
+.my-button{
+	color: white;
+	background-color: #576deb;
+	font-size: larger;
+	height: 75px;
+	width: 30%;
+}
