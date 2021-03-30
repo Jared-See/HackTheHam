@@ -448,7 +448,6 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/about-video-bg.jpg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -962,7 +961,6 @@ button:focus {
 /*--------------------*/
 
 #mu-register {
-	background-image: url("assets/images/register-bg.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
