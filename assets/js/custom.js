@@ -103,48 +103,7 @@
 	/*  4. VIDEO POPUP
 	/* ----------------------------------------------------------- */
 
-   $('.mu-video-play-btn').on('click', function(event) {
-	   
-        event.preventDefault();
-        
-        $('.mu-video-iframe-area').addClass('mu-video-iframe-display');
-       
-    });
-   
-    // when click the close btn
-
-    // disappear iframe window
-    
-    $('.mu-video-close-btn').on('click', function(event) {
-	    
-	    event.preventDefault();
-	    
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
-		
-    });
-
-    // stop iframe if it is play while close the iframe window
-
-    $('.mu-video-close-btn').click(function(){
-
-        $('.mu-video-iframe').attr('src', $('.mu-video-iframe').attr('src'));
-
-    });
-
-    // when click overlay area
-
-     $('.mu-video-iframe-area').on('click', function(event) {
-	    
-	    event.preventDefault();
-	    
-		$('.mu-video-iframe-area').removeClass('mu-video-iframe-display');
-		
-    });
-
-	$('.mu-video-iframe-area, .mu-video-iframe').on('click', function(e){
-	    e.stopPropagation();
-	});
-
+  
 		
 	/* ----------------------------------------------------------- */
 	/*  5. SPEAKERS SLIDEER ( SLICK SLIDER )
